@@ -1,0 +1,14 @@
+{
+  "name": "deepflow-sidecar",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Holds one Puppeteer page alive and renders mermaid in it, JSON lines over stdin/stdout.",
+  "scripts": {
+    "selfcheck": "node selfcheck.mjs"
+  },
+  "dependencies": {
+    "mermaid": "^11.0.0",
+    "puppeteer-core": "^24.0.0"
+  }
+}
